@@ -11,6 +11,7 @@ import About from "./pages/about";
 import WhatIsArt from "./pages/curriculum/what-is-art";
 import EmbracingMatisse from "./pages/curriculum/embracing-matisse";
 import PortfolioDetailsPage from "./pages/portfolioDetailsTemplate";
+import PaperMacheMasks from './pages/curriculum/paper-mache-masks';
 
 function routes() {
   return [
@@ -25,6 +26,7 @@ function routes() {
     { path: "/portfolio/design", element: <Design /> },
     { path: "/curriculum/matisse", element: <EmbracingMatisse /> },
     { path: "/curriculum/what-is-art", element: <WhatIsArt /> },
+    { path: "/curriculum/paper-mache-masks", element: <PaperMacheMasks /> },
     //{ path: "*", element: <NotFound /> },
   ];
 }
