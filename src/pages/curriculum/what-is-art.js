@@ -118,7 +118,7 @@ function WhatIsArt() {
           className="focus-art-image"
         />
          <img 
-          src={getImage("img/Marc-horses.jpg")}
+          src={getImage("img/Roy_Lichtenstein_Drowning_Girl.jpg")}
           alt="Franz Marc - Horses - focus art" 
           className="focus-art-image"
         />
@@ -155,114 +155,112 @@ function WhatIsArt() {
           <Accordion defaultActiveKey="0">
             {/*  Unit 1 */}
             <Accordion.Item eventKey="0">
-              <Accordion.Header>Lesson 1: Introduction to Matisse & Other Fauvists</Accordion.Header>
+              <Accordion.Header>Lesson One - Historical & Cultural Context</Accordion.Header>
               <Accordion.Body>
                 <h3>Objective:</h3>
-                <p>Students will gain an understanding of Fauvism, focusing on the works of Henri Matisse, Franz Marc, and Maurice de Vlaminck. They will explore fundamental art elements like color, shape, and line and discuss the role of art in personal expression.</p>
-                <h4>Materials</h4>
-                <ul>
-                <li>Slideshow on Fauvism (Provided)</li>
-                <li>Images of artworks by Matisse, Marc, and Vlaminck</li>
-                <li>Art supplies: paper, paint (watercolors or tempera), brushes, colored pencils, markers</li>
-                <li>Projector or smart board for displaying art images</li>
-                <li>Handouts about Fauvism and its key artists</li>
-                 </ul>
+                <p>Students will be introduced to Andy Warhol’s artwork and Pop Art. 
+                    They will also be introduced to the idea that art has a broad 
+                    meaning that includes that of design. First, students will engage 
+                    in asking themselves what is art, then we’ll walk through a brief 
+                    history of Andy Warhol and Pop Art. At the end of class, they will 
+                    take a short quiz to see if they retained any information from the lecture.</p>
+
                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                  Download Guide
+                  Lesson Guide
+                </Button> <br />
+                <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                  Slideshow
                 </Button>
               </Accordion.Body>
             </Accordion.Item>
 
             {/* Unit 2 */}
             <Accordion.Item eventKey="1">
-            <Accordion.Header>Lesson 2: Matisse’s World of Color</Accordion.Header>
+            <Accordion.Header>Lesson Two - Artistic Perception Color Schemes</Accordion.Header>
               <Accordion.Body>
                 <h3>Objective:</h3>
-                <p>Students will explore Henri Matisse’s and Franz Marc’s innovative use of color and its emotional impact. They will engage in a collaborative color wheel project to understand color relationships and create artworks based on color themes inspired by Matisse.</p>
-                <h4>Materials</h4>
-                <ul>
-                <li>Images of artworks by Matisse and Marc focusing on color use</li>
-                <li>Art supplies: paints (various colors), brushes, paper, color wheel templates</li>
-                <li>Projector or smart board for displaying art images</li>
-                <li>Handouts on color theory and color wheel</li>
-                 </ul>
+                <p>Using Andy Warhol’s Pop Art styling, students will learn how to create a color 
+                    wheel in Illustrator. Then using the colors, students will color images using 
+                    color schemes: analogous, complementary, triad, monochromatic, primary, and 
+                    split complementary, cool colors, and warm colors to create 6 portrait images 
+                    to be displayed side-by- side.</p>
+               
                  <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                  Download Guide</Button>
+                  Lesson Guide
+                </Button> <br />
+                <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                  Slideshow
+                </Button>
               </Accordion.Body>
             </Accordion.Item>
 
             {/*  Unit 3 */}
             <Accordion.Item eventKey="2">
-              <Accordion.Header>Lesson 3: Exploring Shape and Pattern</Accordion.Header>
+              <Accordion.Header>Lesson Three - Skill Building, Collage</Accordion.Header>
               <Accordion.Body>
                 <h3>Objective:</h3>
-                <p>Students will explore the Fauvists’ use of organic shapes and patterns, particularly in the works of Henri Matisse. They will engage in activities to create their artwork inspired by Matisse’s use of shapes and explore forms and patterns through individual artwork.</p>
-                <h4>Materials</h4>
-                <ul>
-                <li>Images of Matisse’s artworks focusing on shapes and patterns</li>
-                <li>Art supplies: paper, scissors, colored paper for collage, glue, pencils, markers</li>
-                <li>Projector or smart board for displaying art images</li>
-                 </ul>
-                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                  Download Guide</Button>
+                <p>Collaging is a way to create personal images that draw attention 
+                    to the viewer. The students will be learning what contrast, scale, 
+                    and position means when it comes to design through collage. This project 
+                    will be done in either photoshop and/or illustrator. They must have access 
+                    to the internet, optionally a digital camera. Students will present their 
+                    collages at the end of the lesson.  </p>
+                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                     Lesson Guide
+                    </Button> <br />
+                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                     Slideshow
+                </Button>
               </Accordion.Body>
             </Accordion.Item>
 
             {/* Unit 4 */}
              <Accordion.Item eventKey="3">
-              <Accordion.Header>Lesson 4: Creative Adventures with Collage</Accordion.Header>
+              <Accordion.Header>Lesson Four - Artistic Expression, Poster</Accordion.Header>
               <Accordion.Body>
                 <h3>Objective:</h3>
-                <p>Students will be introduced to collage as an artistic technique. They will participate in a collaborative collage project to explore abstraction and patterns and then create personalized collage projects to express their ideas and creativity.</p>
-                <h4>Materials</h4>
-                <ul>
-                <li>Examples of collages, especially those by Matisse and other Fauvists</li>
-                <li>Assorted papers (colored, textured, patterned)</li>
-                <li>Scissors, glue, and other collage materials (like fabric, ribbon, buttons)</li>
-                <li>Large sheets of paper or poster board for the collaborative project</li>
-                <li>Projector or smart board for displaying art images</li>
-                 </ul>
-                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                  Download Guide</Button>
+                <p>The focus of this project is to create a movie poster in a pop art or 
+                    comic book style. Students are to use a photo of a character and turn it into a 
+                    3 color + black/white image. Then creatively into a movie poster. Backgrounds 
+                    can be scenes or abstract shapes. It’s up to the student to come up with the 
+                    design. The logos from the movie do not have to follow the color scheme.
+                    </p>
+                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                     Lesson Guide
+                    </Button> <br />
+                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                     Slideshow
+                </Button>
               </Accordion.Body>
             </Accordion.Item>
             
              {/* Unit 5 */}
             <Accordion.Item eventKey="4">
-              <Accordion.Header>Lesson 5: Beyond the Canvas</Accordion.Header>
+              <Accordion.Header>Lesson Five - Artistic Analysis</Accordion.Header>
               <Accordion.Body>
                 <h3>Objective:</h3>
-                <p>Students will explore tactile materials for sensory exploration in art, participate in an online field trip to an art museum featuring the works of Matisse and other Fauvists, and engage in group discussions and reflective writing about their experiences and learnings.</p>
-                <h4>Materials</h4>
-                <ul>
-                <li>Variety of tactile materials (e.g., fabrics, textured papers, foam, beads)</li>
-                <li>Access to computers or tablets for the online field trip</li>
-                <li>Links to virtual tours of museums with Fauvist collections</li>
-                <li>Notebooks and writing materials for reflections</li>
-                <li>Projector or smart board for displaying art images</li>
-                 </ul>
-                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                  Download Guide</Button>
+                <p>During the 5th lesson, students are to present and analyze their 
+                    own work and the work of others. There is also a test at the end of the lesson 
+                    to solidify the knowledge they were taught. The lesson will go over the four 
+                    stages of art criticism which are: description, analysis, interpretation, 
+                    and evaulation. The teacher will make note of why its important to use a 
+                    critique when talking about design.</p>
+        
+                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                     Lesson Guide
+                    </Button> <br />
+                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                     Slideshow
+                </Button> <br />
+                <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                     Lesson Guide
+                    </Button> <br />
+                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                     Slideshow
+                </Button>
               </Accordion.Body>
             </Accordion.Item>
 
-            {/* Unit 6 */}
-            <Accordion.Item eventKey="4">
-              <Accordion.Header>Lesson 6: Culminating Art Projects and Presentation</Accordion.Header>
-              <Accordion.Body>
-                <h3>Objective:</h3>
-                <p>Students will create their own Fauvist-inspired artworks using a chosen medium. It can be mixed media, acrylic paint, or collage. They will engage in peer critique and group sharing sessions to develop their communication skills and present their final projects, reflecting on their artistic journey throughout the unit.</p>
-                <h4>Materials</h4>
-                <ul>
-                <li>Various art supplies (paints, brushes, collage materials, textured papers, etc.)</li>
-                <li>Space for artwork display</li>
-                <li>Notebooks or paper for final reflections</li>
-                <li>Projector or smart board for displaying art images</li>
-                 </ul>
-                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                  Download Guide</Button>
-              </Accordion.Body>
-            </Accordion.Item>
           </Accordion>
         </Container>
       </section>

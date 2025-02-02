@@ -64,7 +64,7 @@ function Education() {
         <Container>
           <Row className="align-items-center">
             {/* 🔹 Image Column */}
-            <Col lg={4} md={6} data-aos="fade-right" className="fieldwork-image">
+            <Col lg={4} md={4} sm={12} data-aos="fade-right" className="fieldwork-image">
               <img 
                src={getImage("fieldwork_art_experience_torrance.jpg")}
                 alt="Fieldwork Experience" 
@@ -73,7 +73,8 @@ function Education() {
             </Col>
 
             {/* 🔹 Text Column */}
-            <Col lg={4} md={6} data-aos="fade-up" className="fieldwork-text">
+            <Col lg={8} md={8} sm={12} data-aos="fade-up">
+             <Row className="fieldwork-text">
               <h2>Fieldwork Experience</h2>
               <p>
               I completed my fieldwork at the Art Experience Studio in Torrance, CA. Mrs. Lee-Jean Lin has been my
@@ -84,12 +85,9 @@ function Education() {
               <p>
               I’ve attached a video presentation of my educational experience at the Art Experience Studio. 
               Thank you for letting me be a part of the team.
-
               </p>
-            </Col>
-
-            {/* 🔹 YouTube Video Column */}
-            <Col lg={4} data-aos="fade-left" className="fieldwork-video">
+              </Row>
+              <Row class-Name="fieldwork-video">
               <div className="video-container">
                 <iframe 
                   width="100%" 
@@ -100,7 +98,9 @@ function Education() {
                   allowFullScreen
                 ></iframe>
               </div>
+              </Row>
             </Col>
+
           </Row>
         </Container>
       </section>
