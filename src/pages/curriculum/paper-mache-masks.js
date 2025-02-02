@@ -28,7 +28,6 @@ function PaperMacheMasks() {
       {/* Page Title */}
       <div
         className="page-title dark-background"
-        data-aos="fade"
       >
         <Container className="position-relative">
           <h1>Paper Mache Masks: A Cultural View</h1>

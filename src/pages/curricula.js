@@ -14,11 +14,7 @@ function Curricula() {
   return (
     <main className="main">
       {/* Page Title */}
-      <div
-        className="page-title dark-background"
-        data-aos="fade"
-        style={{ backgroundImage: "url(/assets/img/page-title-bg.webp)" }}
-      >
+      <div className="page-title dark-background">
         <Container className="position-relative">
           <h1>Curricula</h1>
           <p>

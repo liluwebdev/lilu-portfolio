@@ -28,7 +28,6 @@ function WhatIsArt() {
       {/* Page Title */}
       <div
         className="page-title dark-background"
-        data-aos="fade"
       >
         <Container className="position-relative">
           <h1>What is Art? A Pop Art Unit</h1>

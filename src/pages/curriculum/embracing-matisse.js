@@ -28,7 +28,6 @@ function EmbracingMatisse() {
       {/* Page Title */}
       <div
         className="page-title dark-background"
-        data-aos="fade"
       >
         <Container className="position-relative">
           <h1>Embracing Matisse’s Colors: An Inclusive Art Journey</h1>

@@ -14,8 +14,6 @@ function StarterPage() {
       {/* Page Title */}
       <div
         className="page-title dark-background"
-        data-aos="fade"
-        style={{ backgroundImage: "url(/assets/img/page-title-bg.webp)" }}
       >
         <Container className="position-relative">
           <h1>Starter Page</h1>

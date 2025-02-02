@@ -27,7 +27,6 @@ function Education() {
       {/* Page Title */}
       <div
         className="page-title dark-background"
-        data-aos="fade"
        
       >
         <Container className="position-relative">
