@@ -33,7 +33,11 @@ function Education() {
         <Container className="position-relative">
           <h1>Education</h1>
           <p>
-            Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.
+          My approach to education is centered on fostering creativity, problem-solving, 
+          and real-world application. With a background in both teaching and technology, 
+          I create learning experiences that are student-driven, project-based, and adaptable 
+          to different learning styles. I believe in empowering students and educators with the 
+          tools to succeed in a digital world.
           </p>
           <nav className="breadcrumbs">
             <ol>
@@ -90,8 +94,6 @@ function Education() {
               <Row class-Name="fieldwork-video">
               <div className="video-container">
                 <iframe 
-                  width="100%" 
-                  height="300px" 
                   src="https://www.youtube.com/embed/d3kjABsfaaM"
                   title="Fieldwork Video"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

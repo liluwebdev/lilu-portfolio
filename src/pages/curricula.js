@@ -22,7 +22,10 @@ function Curricula() {
         <Container className="position-relative">
           <h1>Curricula</h1>
           <p>
-            Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.
+          Education is at the heart of what I do. I develop curricula that bridge technology, 
+          creativity, and hands-on learning, helping students and educators engage with subjects 
+          in meaningful ways. From coding and game design to digital literacy, my lesson plans 
+          are designed to be accessible, innovative, and impactful.
           </p>
           <nav className="breadcrumbs">
             <ol>

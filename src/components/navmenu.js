@@ -47,10 +47,13 @@ const NavMenu = () => {
             <ul>
               <li><NavLink to="/" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>Home</NavLink></li>
               <li><NavLink to="/about" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>About</NavLink></li>
-              <li><NavLink to="/portfolio" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>Portfolio</NavLink></li>
-              <li><NavLink to="/education" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>Education</NavLink></li>
+              <li><NavLink to="/portfolio/development" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>Development</NavLink></li>
+              <li><NavLink to="/portfolio/design" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>Art & Design</NavLink></li>
               <li><NavLink to="/curricula" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>Curricula</NavLink></li>
+              <li><NavLink to="/education" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>Education</NavLink></li>
               <li><NavLink to="/contact" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>Contact</NavLink></li>
+              
+
               {/* Dropdown Menu *
               <li className={`dropdown ${dropdownOpen ? "dropdown-active" : ""}`}>
               <a href="#test" onClick={toggleDropdown}>

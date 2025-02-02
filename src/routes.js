@@ -2,6 +2,8 @@
 import React from 'react';
 import Home from "./pages/home";
 import Portfolio from "./pages/portfolio";
+import Development from "./pages/development";
+import Design from "./pages/design";
 import Education from "./pages/education";
 import Curricula from "./pages/curricula";
 import Contact from "./pages/contact";
@@ -19,6 +21,8 @@ function routes() {
     { path: "/curricula", element: <Curricula /> },
     { path: "/contact", element: <Contact /> },
     { path: "/port-details", element: <PortfolioDetailsPage /> },
+    { path: "/portfolio/development", element: <Development /> },
+    { path: "/portfolio/design", element: <Design /> },
     { path: "/curriculum/matisse", element: <EmbracingMatisse /> },
     { path: "/curriculum/what-is-art", element: <WhatIsArt /> },
     //{ path: "*", element: <NotFound /> },

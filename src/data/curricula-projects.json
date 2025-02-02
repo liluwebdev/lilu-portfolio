@@ -16,14 +16,14 @@
     {
       "title": "Paper Mache Masks - A lesson on Masks",
       "description": "At Demand Boost, I developed a PHP templating system to automate name and address updates, streamlining development. While I preferred React, the owner chose a simpler solution. I've provided a website built with this system and an example on GitHub. ",
-      "image": "/assets/img/dev/node-api.jpg",
+      "image": "venice-mask-shop.jpg",
       "website": "https://example.com",
       "download": "https://github.com/yourgithub/node-api"
     },
     {
       "title": "Watercolor Leaves - A Lesson on Seasons and Watercolor",
       "description":  "I've designed a sleek and modern Bootstrap, SCSS, and React template, crafted for flexibility and performance. This dynamic framework not only powers my own website but is also built for seamless customization and scalability, making it a perfect starting point for various projects.",
-      "image": "/assets/img/dev/node-api.jpg",
+      "image": "pond-lilies-web.jpg",
       "website": "https://example.com",
       "download": "https://github.com/yourgithub/node-api"
     }
