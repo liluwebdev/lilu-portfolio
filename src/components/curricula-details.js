@@ -2,8 +2,17 @@ import React, { useEffect } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import '../styles/portfoliodetails.scss';
+import '../styles/curriculumdetails.scss';
 import CurriculaProjects from "../data/curricula-projects.json";
+
+const getImage = (imagePath) => {
+    try {
+      return require(`../assets/curriculum/img/${imagePath}`);
+    } catch (error) {
+      console.error("Image not found:", imagePath);
+      return "";
+    }
+  };
 
 function CurriculaShowcase() {
   useEffect(() => {
@@ -11,12 +20,7 @@ function CurriculaShowcase() {
   }, []);
 
   return (
-    <section id="development-projects" className="development-projects section">
-      {/* Section Title */}
-      <Container className="section-title" data-aos="fade-up">
-        <h2>Curricula Projects</h2>
-        <p>Here are some of my web development projects.</p>
-      </Container>
+    <section className="development-projects section">
 
       {/* Project Cards */}
       <Container>
@@ -27,7 +31,7 @@ function CurriculaShowcase() {
                 <Row className="g-1">
                   {/* Project Image */}
                   <Col md={4} className="image-container">
-                    <Card.Img variant="top" src={project.image} alt={project.title} />
+                    <Card.Img variant="top" src={getImage(project.image)} alt={project.title} />
                   </Col>
 
                   {/* Project Info */}

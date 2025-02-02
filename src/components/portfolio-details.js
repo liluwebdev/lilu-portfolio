@@ -34,11 +34,6 @@ function ProjectShowcase() {
 
   return (
     <section id="development-projects" className="development-projects section">
-      {/* Section Title */}
-      <Container className="section-title" data-aos="fade-up">
-        <h2>Development Projects</h2>
-        <p>Here are some of my web development projects.</p>
-      </Container>
 
       {/* Project Cards */}
       <Container>

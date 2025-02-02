@@ -2,14 +2,14 @@
     {
       "title": "What is Art? A Pop Art Unit",
       "description": "I built this website using Bootstrap, React, and SCSS to demonstrate my web development skills. Instead of using WordPress, which I have experience with, I chose these technologies to refine and enhance my technical expertise. I am hosting my site using AWS lightsail using a <blank> server set up.",
-      "image": "/assets/img/dev/react-portfolio.jpg",
+      "image": "pop-art-half-tone-portrait.png",
       "website": "https://example.com",
       "download": "https://github.com/yourgithub/react-portfolio"
     },
     {
       "title": "Embracing Matisse - A Unit on Fauvism and Color Theory",
       "description": "I built Digital Dreamers using the latest version of WordPress, leveraging its new drag-and-drop templating system. While I have the skills to create a custom template and develop a unique theme, I chose this approach to streamline content creation and speed up the launch. Additionally, it allowed me to stay updated on WordPress's latest features.",
-      "image": "/assets/img/dev/ecommerce.jpg",
+      "image": "matisse-cat.jpg",
       "website": "/curriculum/matisse",
       "download": "https://github.com/yourgithub/ecommerce-store"
     },

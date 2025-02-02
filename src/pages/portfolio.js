@@ -85,10 +85,6 @@ function Portfolio() {
 
       {/* Portfolio Section */}
       <section id="portfolio" className="portfolio section">
-        <Container className="section-title" data-aos="fade-up">
-          <h2>Graphic Design & Traditional Art</h2>
-          <p>Explore some of my work in art and design.</p>
-        </Container>
 
         {/* Portfolio Filters */}
         <Container>
