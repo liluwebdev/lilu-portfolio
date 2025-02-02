@@ -48,7 +48,7 @@ function About() {
               <Container>
                 <Row className="align-items-center">
                   <Col lg={6} md={12} className="hero-text" data-aos="fade-up">
-                    <h1>Creative Technology Educator</h1>
+                    <h1>About Me</h1>
                     <p>I integrate technology and art to create engaging learning experiences for students and educators.</p>
                     <Button variant="primary" href="/curriculum">
                       Explore My Work

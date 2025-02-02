@@ -75,18 +75,18 @@ function PaperMacheMasks() {
         <li><strong>Artistic Reasoning</strong> – Understanding of <strong>cultural context and vocabulary</strong></li>
         <li><strong>Presentation</strong> – Ability to discuss their mask's meaning and artistic process</li>
     </ul>
-    <h2>Additional Teacher Resources</h2>
+    <h3>Additional Teacher Resources</h3>
       <p>
         <a href="http://www.indians.org/articles/native-american-masks.html" target="_blank" rel="noopener noreferrer">
-          Native American Masks:
+          Native American Masks
         </a>
         <br />
         <a href="http://www.mexican-folk-art-guide.com/Mexican-masks.html" target="_blank" rel="noopener noreferrer">
-          Mexican Masks:
+          Mexican Masks
         </a>
         <br />
         <a href="http://www.contemporary-african-art.com/african-masks.html" target="_blank" rel="noopener noreferrer">
-          African Masks:
+          African Masks
         </a>
       </p>
     <h3>Why This Lesson Works</h3>
