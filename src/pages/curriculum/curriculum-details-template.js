@@ -1,11 +1,13 @@
-import React from "react";
-import { Container, Row, Col, Accordion, Button } from "react-bootstrap";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Container, Row, Col, Accordion, Button } from "react-bootstrap";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "../../styles/curriculum.scss"; 
 import "../../styles/main.scss";
-import "../styles/curriculum.scss"; 
-
 const getImage = (imagePath) => {
     try {
       return require(`../../assets/curriculum/${imagePath}`);

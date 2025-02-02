@@ -6,6 +6,7 @@ import Education from "./pages/education";
 import Curricula from "./pages/curricula";
 import Contact from "./pages/contact";
 import About from "./pages/about";
+import WhatIsArt from "./pages/curriculum/what-is-art";
 import EmbracingMatisse from "./pages/curriculum/embracing-matisse";
 import PortfolioDetailsPage from "./pages/portfolioDetailsTemplate";
 
@@ -19,6 +20,7 @@ function routes() {
     { path: "/contact", element: <Contact /> },
     { path: "/port-details", element: <PortfolioDetailsPage /> },
     { path: "/curriculum/matisse", element: <EmbracingMatisse /> },
+    { path: "/curriculum/what-is-art", element: <WhatIsArt /> },
     //{ path: "*", element: <NotFound /> },
   ];
 }

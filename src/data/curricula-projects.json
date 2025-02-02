@@ -3,7 +3,7 @@
       "title": "What is Art? A Pop Art Unit",
       "description": "I built this website using Bootstrap, React, and SCSS to demonstrate my web development skills. Instead of using WordPress, which I have experience with, I chose these technologies to refine and enhance my technical expertise. I am hosting my site using AWS lightsail using a <blank> server set up.",
       "image": "pop-art-half-tone-portrait.png",
-      "website": "https://example.com",
+      "website": "/curriculum/what-is-art",
       "download": "https://github.com/yourgithub/react-portfolio"
     },
     {
