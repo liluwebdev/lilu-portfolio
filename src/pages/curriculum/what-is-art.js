@@ -142,6 +142,8 @@ function WhatIsArt() {
         <li>Various works of Andy Warhol</li>
         <li>Various works of James Rosenquist</li>
         </ul>
+         <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                          Download Guide</Button>
       </Col>
     </Row>
   </Container>
@@ -164,7 +166,14 @@ function WhatIsArt() {
                     in asking themselves what is art, then we’ll walk through a brief 
                     history of Andy Warhol and Pop Art. At the end of class, they will 
                     take a short quiz to see if they retained any information from the lecture.</p>
-
+                    <div className="video-container">
+                        <iframe 
+                        src="https://www.youtube.com/embed/JtOHSFlckLE"
+                        title="Fieldwork Video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        ></iframe>
+                        </div>
                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
                   Lesson Guide
                 </Button> <br />

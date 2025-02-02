@@ -98,12 +98,14 @@ function EmbracingMatisse() {
           <li><strong>Handouts and Digital Files:</strong>slideshows, color theory handout, met museum handout</li>
           <li><strong>Technology:</strong>Smart board, Projector, Computer</li>
         </ul>
+        <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+        Download Guide</Button>
       </Col>
     </Row>
   </Container>
 </section>
 
-      {/* 📌 Accordion Menu for Curriculum Sections */}
+      {/* Accordion Menu for Curriculum Sections */}
       <section className="curriculum-accordion section">
         <Container data-aos="fade-up">
           <h2 className="text-center">Curriculum Breakdown</h2>
@@ -197,6 +199,14 @@ function EmbracingMatisse() {
                 <li>Notebooks and writing materials for reflections</li>
                 <li>Projector or smart board for displaying art images</li>
                  </ul>
+                 <div className="video-container">
+                <iframe 
+                  src="https://www.youtube.com/embed/maRY3SyDzMA"
+                  title="Fieldwork Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                </div>
                  <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
                   Download Guide</Button>
               </Accordion.Body>
