@@ -72,7 +72,7 @@ function About() {
                     <p>From coding to design, I bring creative and technical skills together to innovate.</p>
                   </Col>
                   <Col lg={6} md={12} className="hero-image" data-aos="fade-left">
-                    <img src="/assets/img/about-slide2.jpg" alt="Skills Showcase" />
+                    <img src={getImage("about_me_paris_lindsu.jpg")} alt="Skills Showcase" />
                   </Col>
                 </Row>
               </Container>
@@ -92,7 +92,7 @@ function About() {
                     </Button>
                   </Col>
                   <Col lg={6} md={12} className="hero-image" data-aos="fade-left">
-                    <img src="/assets/img/about-slide3.jpg" alt="Resume Preview" />
+                    <img src={getImage("about_me_italy_lindsu.jpg")}  alt="Resume Preview" />
                   </Col>
                 </Row>
               </Container>
@@ -109,7 +109,7 @@ function About() {
                     <p>I'm a designer, educator, and lifelong learner. When I'm not teaching or creating, I enjoy exploring new technologies, gaming, and storytelling.</p>
                   </Col>
                   <Col lg={6} md={12} className="hero-image">
-                    <img src="/assets/img/about-slide4.jpg" alt="Personal About Me" />
+                    <img src={getImage("about_me_husband_lindsu.jpg")}  alt="Personal About Me" />
                   </Col>
                 </Row>
               </Container>

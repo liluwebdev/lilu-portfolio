@@ -44,7 +44,7 @@ function Home() {
           </p>
           <div data-aos="fade-up" data-aos-delay="300">
             <a
-              href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+              href="https://player.vimeo.com/video/205809295"
               className="glightbox pulsating-play-btn"
             ></a>
           </div>
