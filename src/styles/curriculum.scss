@@ -1,0 +1,224 @@
+$accent-color: #ff6b6b;
+
+.curriculum-overview {
+    padding: 60px 0;
+    background: #fdfdfd;
+    border-radius: 8px;
+  
+    .container {
+      max-width: 1100x; // Matches accordion width
+      margin: auto;
+    }
+  
+    .curriculum-content {
+      padding: 20px;
+      h2 {
+        font-size: 1.8rem;
+        color: var(--accent-color);
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #333;
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+  
+        li {
+          font-size: 1rem;
+          padding-left: 20px;
+          position: relative;
+          margin-bottom: 10px;
+  
+          &::before {
+            content: "•";
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0;
+          }
+        }
+      }
+    }
+  
+    // 📌 Fix Focus Art Section
+    .focus-art {
+      text-align: center;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .focus-art-image {
+        width: 100%;
+        max-width: 250px;
+        height: 250px;
+        object-fit: cover;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+    // Fix Focus Art Section Alignment
+    .focus-art {
+      text-align: center;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .focus-art-image {
+        width: 100%;
+        max-width: 250px;
+        height: 250px;
+        object-fit: cover;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+  
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: var(--accent-color);
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+        margin: auto;
+        max-width: 300px;
+  
+        li {
+          font-size: 1rem;
+          padding-left: 20px;
+          position: relative;
+          margin-bottom: 10px;
+  
+          &::before {
+            content: "•";
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0;
+          }
+        }
+      }
+    }
+  
+  
+.curriculum-accordion {
+    padding: 60px 0;
+  
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: var(--accent-color);
+      text-align: center;
+      font-weight: 600;
+    }
+  
+    .accordion {
+      max-width: 1100px;
+      margin: auto;
+      background: transparent;
+      border-radius: 10px;
+    }
+  
+    .accordion-item {
+      background: #ffffff; // Light background
+      border-radius: 10px;
+      margin-bottom: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.1); // Subtle border
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+      
+      &:hover {
+        border-color: var(--accent-color); // Highlight border on hover
+      }
+  
+      .accordion-header {
+        background: #f8f9fa; // Soft light background
+        color: #333; // Dark text for readability
+        font-weight: bold;
+        transition: background 0.3s ease-in-out;
+  
+        button {
+          width: 100%;
+          text-align: left;
+          font-size: 1.2rem;
+          color: #333; // Dark text
+          padding: 15px 50px 15px 20px;
+          border: none;
+          background: transparent;
+          outline: none;
+          box-shadow: none;
+          font-weight: 500;
+          position: relative;
+          transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+  
+          &:hover {
+            background: #e9ecef; // Light hover effect
+            color: var(--accent-color);
+          }
+  
+          &::after {
+            content: "⌄"; // Custom arrow
+            font-size: 1.2rem;
+            color: #555;
+            transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+          }
+  
+          &:not(.collapsed)::after {
+            transform: rotate(180deg);
+            color: var(--accent-color); // Arrow changes color when open
+          }
+        }
+      }
+  
+      .accordion-body {
+        background: #ffffff; // Keep it light
+        padding: 20px;
+        border-radius: 0 0 10px 10px;
+        color: #555;
+        font-size: 1rem;
+        transition: all 0.3s ease-in-out;
+  
+        p {
+          margin-bottom: 15px;
+        }
+  
+        .btn-primary {
+          background: var(--accent-color, $accent-color);
+          border: none;
+          font-size: 1rem;
+          padding: 10px 20px;
+          margin-top: 10px;
+          border-radius: 5px;
+          color: white;
+          transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  
+          &:hover {
+            background: darken($accent-color, 10%);
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+  }
+  

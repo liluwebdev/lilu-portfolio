@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Rainbow Boats of Cinque Terre",
+    "image": "rainbow-boats-cinque-terre.jpg",
+    "category": "filter-painting",
+    "description": "Oil on canvas. 2023. This is a 2 point perspective piece of a photo I took while in Cinque Terre, Italy.",
+    "gallery": "portfolio-gallery-painting",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "Il Duomo from Bardini Guardens",
+    "image": "il-duomo-from-bardini.jpg",
+    "category": "filter-painting",
+    "description": "Oil on canvas. 2022. I created this image from a photo I took while in Florence, Italy. It was featured in the Summer Italy show at the Academy of Art in 2022.",
+    "gallery": "portfolio-gallery-painting",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "Venice Mask Shop",
+    "image": "venice-mask-shop.jpg",
+    "category": "filter-painting",
+    "description": "Oil on canvas. 2022. I painted this while in Italy. It was featured in the Summer Italy show at the Academy of Art in 2022.",
+    "gallery": "portfolio-gallery-painting",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "Replica of Matisse Cat Painting",
+    "image": "matisse-cat.jpg",
+    "category": "filter-painting",
+    "description": "Acrylic on canvas. 2023. I painted this replica while teaching a class on Matisse. I modified the colors because of limited painting material.",
+    "gallery": "portfolio-gallery-painting",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "Still Life Reflection Study",
+    "image": "still-life-reflection-study.jpg",
+    "category": "filter-painting",
+    "description": "Oil on canvas. 2021. I painted this for my Still Life class. It's a collection of items I had around the house. We had to use a limited pallette.",
+    "gallery": "portfolio-gallery-painting",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "A Grandmother's Love",
+    "image": "portrait-family-oil-painting.jpg",
+    "category": "filter-painting",
+    "description": "Oil on canvas. 2022. I painted this picture for my mother for her birthday. It's of my grandmother, myself and my sister when we were children.",
+    "gallery": "portfolio-gallery-painting",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "Illustration Study: Old Man Sitting",
+    "image": "figure-drawing-man-sitting.jpg",
+    "category": "filter-illustration",
+    "description": "chaoroal on paper. 2018. I drew this for a final in my figure drawing class. I had trouble with the face, but the muscle-tone in the body came out nicely.",
+    "gallery": "portfolio-gallery-illustration",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "Kroman Watchworks",
+    "image": "kroman-watchworks-logo-final.png",
+    "category": "filter-branding",
+    "description": "Lorem ipsum, dolor sit",
+    "gallery": "portfolio-gallery-branding",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "I'll Do That",
+    "image": "illdothat-logo-02.png",
+    "category": "filter-branding",
+    "description": "Lorem ipsum, dolor sit",
+    "gallery": "portfolio-gallery-branding",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "Kafae Logo",
+    "image": "kafae-logo.png",
+    "category": "filter-branding",
+    "description": "Lorem ipsum, dolor sit",
+    "gallery": "portfolio-gallery-branding",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "Camp Flyer: Minecraft Camp 2023",
+    "image": "minecraft-daycamp-flyer-2023.jpg",
+    "category": "filter-graphic-design",
+    "description": "Lorem ipsum, dolor sit",
+    "gallery": "portfolio-gallery-graphic-design",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "End of Print: Bookcover",
+    "image": "end-of-print04.jpg",
+    "category": "filter-graphic-design",
+    "description": "Lorem ipsum, dolor sit",
+    "gallery": "portfolio-gallery-graphic-design",
+    "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "Haagen Daas, Mock Ad",
+    "image": "vanilla-staging.jpg",
+    "category": "filter-graphic-design",
+    "description": "Lorem ipsum, dolor sit",
+    "gallery": "portfolio-gallery-graphic-design",
+    "detailsLink": "/portfolio-details"
+  }
+]

@@ -1,0 +1,26 @@
+
+import React from 'react';
+import Home from "./pages/home";
+import Portfolio from "./pages/portfolio";
+import Education from "./pages/education";
+import Curricula from "./pages/curricula";
+import Contact from "./pages/contact";
+import About from "./pages/about";
+import EmbracingMatisse from "./pages/curriculum/embracing-matisse";
+import PortfolioDetailsPage from "./pages/portfolioDetailsTemplate";
+
+function routes() {
+  return [
+    { path: "/", element: <Home /> },
+    { path: "/about", element: <About /> },
+    { path: "/portfolio", element: <Portfolio /> },
+    { path: "/education", element: <Education /> },
+    { path: "/curricula", element: <Curricula /> },
+    { path: "/contact", element: <Contact /> },
+    { path: "/port-details", element: <PortfolioDetailsPage /> },
+    { path: "/curriculum/matisse", element: <EmbracingMatisse /> },
+    //{ path: "*", element: <NotFound /> },
+  ];
+}
+
+export default routes;

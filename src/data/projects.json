@@ -1,0 +1,28 @@
+[
+    {
+      "title": "Development",
+      "icon": "filetype-html",
+      "description": "Different websites I have worked on through my time as a freelance developer.",
+      "link": "/portfolio/"
+    },
+    {
+        "title": "Github Projects",
+        "icon": "github",
+        "description": "These are more small scale projects that I've used as teaching tools for coding.",
+        "link": "/portfolio/"
+      },
+    {
+      "title": "Graphic Design & Art",
+      "icon": "card-image",
+      "description": "An array of projects including logos, flyers, ads, and bookcovers.",
+      "link": "/portfolio/"
+    },
+    {
+      "title": "Curricula",
+      "icon": "easel",
+      "description": "A collection of art, design, and technology-based curricula I've developed.",
+      "link": "/Curricula"
+    }
+
+  ]
+  

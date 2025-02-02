@@ -1,0 +1,79 @@
+.portfolio {
+    .portfolio-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+  
+      img {
+        width: 100%;
+        transition: transform 0.3s ease-in-out;
+        display: block;
+      }
+  
+      &:hover img {
+        transform: scale(1.05);
+      }
+  
+      // Portfolio Info Overlay (FULL WIDTH OVERLAY)
+      .portfolio-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 20px;
+        text-align: left;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  
+        h4, p {
+          color: #f5f5f5;
+          margin: 0;
+          padding: 5px 0;
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+  
+        h4 {
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+  
+        p {
+          font-size: 0.9rem;
+          font-weight: 300;
+          margin-top: 5px;
+        }
+  
+        // Action buttons (Zoom + Details)
+        .portfolio-links {
+          display: flex;
+          gap: 15px;
+          margin-top: 10px;
+  
+          a {
+            color: white;
+            font-size: 24px;
+            transition: color 0.3s;
+            text-decoration: none;
+  
+            &:hover {
+              color: var(--accent-color);
+            }
+          }
+        }
+      }
+  
+      &:hover .portfolio-info {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+  

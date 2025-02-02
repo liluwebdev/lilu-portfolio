@@ -1,0 +1,8 @@
+[
+    { "icon": "bi-bootstrap", "label": "Bootstrap", "type": "bi" },
+    { "icon": "bi-wordpress", "label": "Wordpress","type": "bi" },
+    { "icon": "bi-filetype-js", "label": "Javascript", "type": "bi" },
+    { "icon": "bi-filetype-html", "label": "HTML/CSS", "type": "bi" },
+    { "icon": "bi-filetype-sass", "label": "SASS/SCSS", "type": "bi" },
+    { "icon": "fa-react", "label": "React", "type": "fa" }
+  ]

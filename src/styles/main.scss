@@ -1,0 +1,249 @@
+@use "./theme"; 
+@use '~bootstrap/scss/bootstrap';
+ // Import the theme file
+
+
+
+
+/*--------------------------------------------------------------
+# General Styling & Shared Classes
+--------------------------------------------------------------*/
+body {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  font-family: var(--default-font);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+}
+
+
+
+$font-family-base: 'Open Sans', sans-serif !default;
+$header-fonts: 'Raleway', sans-serif; // Change default font
+
+
+html {
+    margin: 0; // Remove default margins
+    padding: 0; // Remove default padding
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+button {
+  all: unset; /* Resets all styles (padding, margin, border, background, etc.) */
+  cursor: pointer; /* Ensures the pointer cursor still shows for clickable buttons */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:$header-fonts;
+    a {text-decoration: none;
+      color:#ddd;}
+}
+
+p, a {font-family: $font-family-base;}
+
+.gradient-bg {
+    background: linear-gradient(180deg, #007bff, #5de0e6);
+    color: white; // Adjust text color for better contrast
+  }
+
+// App container
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+     // For desktop, root the footer at the bottom
+  @media (min-width: 768px) {
+    & {
+      justify-content: space-between; // Spread header, main, footer vertically
+    }
+
+  }
+}  
+
+.main {
+    flex: 1; // Pushes the footer to the bottom (desktop)
+    padding: 0; // Add some padding for content
+    width: 100%;
+
+    h2 {
+      font-size: 5.0rem;
+      span {
+        font-weight: bolder;
+        color:lime;
+      }
+    }
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .title {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin: 0;
+    }
+  }
+  
+
+  /*--------------------------------------------------------------
+  # Global Page Titles & Breadcrumbs
+  --------------------------------------------------------------*/
+  .page-title {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 160px 0 80px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .page-title:before {
+    content: "";
+    background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+    position: absolute;
+    inset: 0;
+  }
+  
+  .page-title h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .page-title .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .page-title .breadcrumbs ol li+li {
+    padding-left: 10px;
+  }
+  
+  .page-title .breadcrumbs ol li+li::before {
+    content: "/";
+    display: inline-block;
+    padding-right: 10px;
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+  }
+  
+  /*--------------------------------------------------------------
+  # Global Sections
+  --------------------------------------------------------------*/
+  section,
+  .section {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 60px 0;
+    scroll-margin-top: 72px;
+    overflow: clip;
+  }
+  
+  @media (max-width: 1199px) {
+  
+    section,
+    .section {
+      scroll-margin-top: 57px;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # Global Section Titles
+  --------------------------------------------------------------*/
+  .section-title {
+    padding-bottom: 60px;
+    position: relative;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-title h2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--accent-color);
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+    color: color-mix(in srgb, var(--default-color) 90%, white 50%);
+  }
+  
+
+      
+ // Footer styles
+.footer {
+    text-align: center;
+    padding: 1rem;
+    width: 100%; // Ensure full-width footer
+  
+    // Root the footer at the bottom of the screen on desktop
+    @media (min-width: 768px) {
+      position: relative; // Default for responsive behavior
+    }
+  
+    @media (min-width: 768px) {
+      position: fixed; // Root the footer at the bottom
+      bottom: 0;
+      left: 0;
+    }
+  }
