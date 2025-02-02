@@ -6,14 +6,20 @@ import "aos/dist/aos.css";
 import "../../styles/main.scss";
 import "../styles/curriculum.scss"; 
 
+const getImage = (imagePath) => {
+    try {
+      return require(`../../assets/curriculum/${imagePath}`);
+    } catch (error) {
+      console.error("Image not found:", imagePath);
+      return "";
+    }
+  };
+
 function CurriculumDetails() {
  useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
 
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
 
   return (
     <main className="main">
@@ -49,7 +55,7 @@ function CurriculumDetails() {
       {/* 📌 Column 2 (1/3 width): Focus Art & Materials with Image */}
       <Col lg={4} md={12} className="focus-art">
         <img 
-          src="/assets/img/focus-art-thumbnail.jpg" 
+          src={getImage("img/fieldwork_art_experience_torrance.jpg")}
           alt="Focus Art Thumbnail" 
           className="focus-art-image"
         />

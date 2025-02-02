@@ -9,12 +9,16 @@ import "swiper/css/pagination";
 import "../../styles/curriculum.scss"; 
 import "../../styles/main.scss";
 
+const getImage = (imagePath) => {
+    try {
+      return require(`../../assets/curriculum/${imagePath}`);
+    } catch (error) {
+      console.error("Image not found:", imagePath);
+      return "";
+    }
+  };
 
 function EmbracingMatisse() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
-
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -27,11 +31,12 @@ function EmbracingMatisse() {
         data-aos="fade"
       >
         <Container className="position-relative">
-          <h1>Curriculum: Digital Art & Design</h1>
+          <h1>Embracing Matisse’s Colors: An Inclusive Art Journey</h1>
           <nav className="breadcrumbs">
             <ol>
               <li><Link to="/">Home</Link></li>
-              <li className="current">Curriculum Details</li>
+              <li><Link to="/curricula">Curricula</Link></li>
+              <li className="current">Embracing Matisse</li>
             </ol>
           </nav>
         </Container>
@@ -72,8 +77,18 @@ function EmbracingMatisse() {
       </Col>
       <Col lg={4} md={12} className="focus-art">
         <img 
-          src="/assets/img/focus-art-thumbnail.jpg" 
-          alt="Focus Art Thumbnail" 
+          src={getImage("img/henri-matisse-gerbe.jpg")}
+          alt="Henri Matisse Gerbe - focus art" 
+          className="focus-art-image"
+        />
+         <img 
+          src={getImage("img/Marc-horses.jpg")}
+          alt="Franz Marc - Horses - focus art" 
+          className="focus-art-image"
+        />
+         <img 
+          src={getImage("img/Maurice-de-Vlaminck.jpg")}
+          alt="Maurice de Vlaminck - focuse art" 
           className="focus-art-image"
         />
         <h2>Focus Art & Materials</h2>
