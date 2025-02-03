@@ -5,7 +5,7 @@
       "image": "lilu-studio-portfolio.png",
       "icons": ["fa-react", "bi-code", "fa-aws", " bi-bootstrap", "fa-sass" ],
       "website": "https://www.lindseyussery.com",
-      "github": "https://github.com/yourgithub/react-portfolio"
+      "github": "https://github.com/liluwebdev/lilu-portfolio"
     },
     {
       "title": "Digital Dreamers",
@@ -13,7 +13,7 @@
       "image": "digital-dreamers-portfolio.png",
       "icons": ["bi-wordpress", "bi-code", "fa-aws"],
       "website": "https://www.digitaldreamers.me",
-      "github": "https://github.com/yourgithub/ecommerce-store"
+      "github": "#None"
     },
     {
       "title": "Templating System for PHP",
@@ -21,7 +21,7 @@
       "image": "demandboost-portfolio-web.png",
       "icons": ["bi-wordpress", "bi-code", "fa-php","bi-bootstrap"],
       "website": "https://www.ihatemypain.com/",
-      "github": "https://github.com/yourgithub/node-api"
+      "github": "https://github.com/liluwebdev/simplePHP"
     },
     {
       "title": "Bootstrap/SCSS/React Template",
