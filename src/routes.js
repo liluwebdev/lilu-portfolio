@@ -12,6 +12,7 @@ import WhatIsArt from "./pages/curriculum/what-is-art";
 import EmbracingMatisse from "./pages/curriculum/embracing-matisse";
 import PortfolioDetailsPage from "./pages/portfolioDetailsTemplate";
 import PaperMacheMasks from './pages/curriculum/paper-mache-masks';
+import KromanWatchworks from './pages/design/kroman';
 
 function routes() {
   return [
@@ -27,6 +28,7 @@ function routes() {
     { path: "/curriculum/matisse", element: <EmbracingMatisse /> },
     { path: "/curriculum/what-is-art", element: <WhatIsArt /> },
     { path: "/curriculum/paper-mache-masks", element: <PaperMacheMasks /> },
+    { path: "/design/kroman", element: <KromanWatchworks /> },
     //{ path: "*", element: <NotFound /> },
   ];
 }

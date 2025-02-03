@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faGithub, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
+
 const currentYear = new Date().getFullYear();
 
 
@@ -39,4 +40,3 @@ function Footer() {
   };
   
   export default Footer;
-

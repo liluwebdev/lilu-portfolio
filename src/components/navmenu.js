@@ -4,7 +4,7 @@ import '../styles/_menu.scss';
 import logo from "../assets/lilu-logo-white-rect.png";
 
 const NavMenu = () => {
-    const [dropdownOpen, setDropdownOpen] = useState(false);
+   // const [dropdownOpen, setDropdownOpen] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
 
@@ -27,10 +27,10 @@ const NavMenu = () => {
       document.body.classList.toggle("mobile-nav-active", !menuOpen);
     };
 
-    const toggleDropdown = (e) => {
-        e.preventDefault();
-        setDropdownOpen(!dropdownOpen);
-      };
+   // const toggleDropdown = (e) => {
+    //    e.preventDefault();
+      //  setDropdownOpen(!dropdownOpen);
+     // };
   
     return (
         <header id="header" className={`header d-flex align-items-center fixed-top ${scrolled ? "scrolled" : ""}`}>
