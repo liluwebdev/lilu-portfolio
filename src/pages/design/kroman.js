@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../../styles/main.scss";
 
-function PortfolioDetailsPage() {
+function KromanWatchworks() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -31,7 +31,10 @@ function PortfolioDetailsPage() {
               <li>
                 <Link to="/">Home</Link>
               </li>
-              <li className="current">Portfolio Details</li>
+              <li>
+                <Link to="/design">Design</Link>
+              </li>
+              <li className="current">Kroman Watchworks</li>
             </ol>
           </nav>
         </Container>
@@ -117,4 +120,4 @@ function PortfolioDetailsPage() {
   );
 }
 
-export default PortfolioDetailsPage;
+export default KromanWatchworks;
