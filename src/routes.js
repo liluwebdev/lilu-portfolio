@@ -14,6 +14,7 @@ import PortfolioDetailsPage from "./pages/portfolioDetailsTemplate";
 import PaperMacheMasks from './pages/curriculum/paper-mache-masks';
 import KromanWatchworks from './pages/design/kroman';
 import EndOfPrint from './pages/design/end-of-print';
+import GilroyGarlic from './pages/design/gilroy-garlic';
 
 function routes() {
   return [
@@ -31,6 +32,7 @@ function routes() {
     { path: "/curriculum/paper-mache-masks", element: <PaperMacheMasks /> },
     { path: "/design/kroman", element: <KromanWatchworks /> },
     { path: "/design/end-of-print", element: <EndOfPrint/> },
+    { path: "/design/gilroy", element: <GilroyGarlic/> },
     //{ path: "*", element: <NotFound /> },
   ];
 }

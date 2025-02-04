@@ -102,5 +102,13 @@
     "description": "Lorem ipsum, dolor sit",
     "gallery": "portfolio-gallery-graphic-design",
     "detailsLink": "/portfolio-details"
+  },
+  {
+    "title": "Gilroy Garlic Festival",
+    "image": "vanilla-staging.jpg",
+    "category": "filter-graphic-design",
+    "description": "Lorem ipsum, dolor sit",
+    "gallery": "portfolio-gallery-graphic-design",
+    "detailsLink": "/design/gilroy"
   }
 ]

@@ -22,7 +22,7 @@ function EndOfPrint() {
         className="page-title dark-background"
       >
         <Container className="position-relative">
-          <h1>Portfolio Details</h1>
+          <h1>End of Print: Mock Bookcover</h1>
           <p>
             Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.
           </p>
@@ -34,7 +34,7 @@ function EndOfPrint() {
               <li>
                 <Link to="/design">Design</Link>
               </li>
-              <li className="current">Kroman Watchworks</li>
+              <li className="current">End of Print</li>
             </ol>
           </nav>
         </Container>

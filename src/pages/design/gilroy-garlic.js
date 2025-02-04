@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../../styles/main.scss";
 
-function KromanWatchworks() {
+function GilroyGarlic() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -22,7 +22,7 @@ function KromanWatchworks() {
         className="page-title dark-background"
       >
         <Container className="position-relative">
-          <h1>Kroman Watchworks</h1>
+          <h1>Gilroy Garlic Festival</h1>
           <p>
             Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.
           </p>
@@ -34,7 +34,7 @@ function KromanWatchworks() {
               <li>
                 <Link to="/design">Design</Link>
               </li>
-              <li className="current">Kroman Watchworks</li>
+              <li className="current">Gilroy Garlic Festival</li>
             </ol>
           </nav>
         </Container>
@@ -43,7 +43,7 @@ function KromanWatchworks() {
 
       <section id="portfolio-details" className="portfolio-details section">
         <Container data-aos="fade-up">
-          {/* ✅ Swiper Image Slider */}
+          {/* Swiper Image Slider */}
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             loop={true}
@@ -120,4 +120,4 @@ function KromanWatchworks() {
   );
 }
 
-export default KromanWatchworks;
+export default GilroyGarlic;
