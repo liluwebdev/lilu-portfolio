@@ -17,7 +17,7 @@ function Contact() {
         className="page-title dark-background"
       >
         <Container className="position-relative">
-          <h1>Starter Page</h1>
+          <h1>Contact Me</h1>
           <p>
             Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.
           </p>
@@ -26,7 +26,7 @@ function Contact() {
               <li>
                 <Link to="/">Home</Link>
               </li>
-              <li className="current">Starter Page</li>
+              <li className="current">Contact Me</li>
             </ol>
           </nav>
         </Container>
@@ -36,7 +36,6 @@ function Contact() {
      {/* Contact Section */}
            <section id="contact" className="contact section light-background">
              <Container data-aos="fade-up">
-               <h2>Contact</h2>
                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
              </Container>
      
