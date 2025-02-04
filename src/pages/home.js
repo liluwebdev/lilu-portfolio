@@ -75,7 +75,7 @@ function Home() {
 
           <Col lg={6} data-aos="fade-up" data-aos-delay="200">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+             I'm passionate about the work I present to the world. If you'd like to learn more about me, p
             </p>
             <Link to="/about" className="read-more">
               <span>Read More</span>
