@@ -64,3 +64,35 @@
     color: white;
   }
   
+  .php-email-form .sent-message {
+    display: block;
+    background: #059652;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.php-email-form .error-message {
+    display: block;
+    background: #df1529;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.php-email-form .loading {
+    display: block;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+}
