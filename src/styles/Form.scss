@@ -1,0 +1,66 @@
+/* 🎨 Clean Contact Form Styling */
+.contact {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .php-email-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input,
+  textarea {
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    width: 100%;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+  
+    &:hover {
+      background: #0056b3;
+    }
+  }
+  
+  /* ✅ Success & Error Messages */
+  .sent-message,
+  .error-message {
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .sent-message {
+    background: #059652;
+    color: white;
+  }
+  
+  .error-message {
+    background: #df1529;
+    color: white;
+  }
+  

@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import {  Row, Col, Button } from "react-bootstrap";
+import {  Row, Col, Button, Container } from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Container } from "react-bootstrap";
-import { Form } from "../components/form";
+import Form from "../components/Form";
+import "../styles/Form.scss";
 
 function Contact() {
   useEffect(() => {
