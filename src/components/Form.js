@@ -7,37 +7,32 @@ function Form() {
     const [errorMessage, setErrorMessage] = useState("");  // State for error message
     const [loading, setLoading] = useState(false);  // State for loading indicator
 
-    const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
-    };
+    const API_URL = process.env.REACT_APP_API_URL || "http://52.24.214.70:5000"; // Change this to your actual server IP
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         setSuccessMessage(""); // Reset messages
         setErrorMessage("");
         setLoading(true); // Show loading state
-
         try {
-            const response = await fetch("/api/submit-form", {
+            const response = await fetch(`${API_URL}/api/submit-form`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(formData)
+                body: JSON.stringify(formData),
             });
-
+    
             const data = await response.json();
-            setLoading(false); // Hide loading state
-
             if (response.ok) {
-                setSuccessMessage("✅ Your information has been submitted successfully!");
-                setFormData({ name: "", email: "", message: "" }); // Clear form
+                setStatus({ message: "✅ Form submitted successfully!", type: "success" });
+                setFormData({ name: "", email: "", message: "" });
             } else {
-                setErrorMessage("❌ Submission failed. Please try again.");
+                setStatus({ message: "❌ Submission failed. Please try again.", type: "error" });
             }
         } catch (error) {
-            setLoading(false);
-            setErrorMessage("❌ Error connecting to server.");
+            setStatus({ message: "❌ Network error. Please try again later.", type: "error" });
         }
     };
+    
 
     return (
         <form onSubmit={handleSubmit} className="php-email-form">
