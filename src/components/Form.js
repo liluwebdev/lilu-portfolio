@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../styles/Form.scss";
 
-const API_URL = process.env.REACT_APP_API_URL || "http:/52.24.214.70:5000";
+const API_URL = process.env.REACT_APP_API_URL || "https:/52.24.214.70:5000";
 
 function Form() {
     const [formData, setFormData] = useState({ name: "", email: "", message: "" });
