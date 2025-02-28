@@ -45,7 +45,7 @@ function Contact() {
                 </Col>
                 <Col>
                <h4>Other Ways to Say Hello</h4>
-               
+
                 </Col>
                 </Row>
               </Container>
