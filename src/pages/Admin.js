@@ -32,8 +32,8 @@ function Admin() {
                     <AdminDashboard token={token} />  {/* ✅ Show dashboard if logged in */}
                 </>
             ) : (
-                <AdminLogin onLoginSuccess={handleLoginSuccess} />  {/* ✅ Show login if not logged in */}
-            )}
+                <AdminLogin onLoginSuccess={handleLoginSuccess} /> ) } 
+
         </div>
     );
 }
