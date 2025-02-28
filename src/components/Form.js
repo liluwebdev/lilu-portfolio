@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Container } from "react-bootstrap";
 import "../styles/Form.scss";
 
 const API_URL = process.env.REACT_APP_API_URL || "https://lilumedia.com:5000";
@@ -35,6 +36,9 @@ function Form() {
     };
 
     return (
+        <Container>
+        <h4>Have Questions?</h4>
+        <p>Use this form to get in touch with me.</p>
         <form onSubmit={handleSubmit} className="php-email-form">
             {status.message && (
                 <div className={`message ${status.type}`}>
@@ -46,6 +50,7 @@ function Form() {
             <textarea name="message" placeholder="Your message" onChange={handleChange} value={formData.message} required></textarea>
             <button type="submit">Submit</button>
         </form>
+        </Container>
     );
 }
 

@@ -35,13 +35,19 @@ function Contact() {
       {/* End Page Title */}
 
      {/* Contact Section */}
-           <section id="contact" className="contact section light-background">
+           <section id="contact" className="section light-background">
              <Container data-aos="fade-up">
-               <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
              </Container>
-     
              <Container>
-               <Form />
+              <Row>
+                <Col className="contact"> 
+                <Form />
+                </Col>
+                <Col>
+               <h4>Other Ways to Say Hello</h4>
+               
+                </Col>
+                </Row>
               </Container>
            </section>
     </main>
