@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import {  Row, Col, Button, Container } from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Form from "../components/Form";
 import "../styles/Form.scss";
+import Form from "../components/Form";
 
 function Contact() {
   useEffect(() => {
