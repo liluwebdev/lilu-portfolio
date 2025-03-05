@@ -97,7 +97,7 @@ function EmbracingMatisse() {
           <li><strong>Handouts and Digital Files:</strong>slideshows, color theory handout, met museum handout</li>
           <li><strong>Technology:</strong>Smart board, Projector, Computer</li>
         </ul>
-        <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+        <Button variant="primary" href="/download/curriculum/matisse/fauvist-color_ussery_l-2023.pdf" download>
         Download Guide</Button>
       </Col>
     </Row>
@@ -124,8 +124,8 @@ function EmbracingMatisse() {
                 <li>Projector or smart board for displaying art images</li>
                 <li>Handouts about Fauvism and its key artists</li>
                  </ul>
-                <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                  Download Guide
+                <Button variant="primary" href="/download/curriculum/matisse/Exploring-Favusim.pptx" download>
+                  Exploring Fauvism - Slideshow
                 </Button>
               </Accordion.Body>
             </Accordion.Item>
@@ -143,8 +143,8 @@ function EmbracingMatisse() {
                 <li>Projector or smart board for displaying art images</li>
                 <li>Handouts on color theory and color wheel</li>
                  </ul>
-                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                  Download Guide</Button>
+                 <Button variant="primary" href="/download/curriculum/matisse/Color-Use-in_fauvism_-An-Artistic-Exploration.pptx" download>
+                  Color Use in Fauvism - Lesson Slideshow</Button>
               </Accordion.Body>
             </Accordion.Item>
 
@@ -160,8 +160,8 @@ function EmbracingMatisse() {
                 <li>Art supplies: paper, scissors, colored paper for collage, glue, pencils, markers</li>
                 <li>Projector or smart board for displaying art images</li>
                  </ul>
-                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                  Download Guide</Button>
+                 <Button variant="primary" href="/download/curriculum/matisse/Examination-of-Organic-Shapes-in-Fauvism.pptx" download>
+                  Organic Shapes in Fauvism - Slideshow</Button>
               </Accordion.Body>
             </Accordion.Item>
 
@@ -179,8 +179,6 @@ function EmbracingMatisse() {
                 <li>Large sheets of paper or poster board for the collaborative project</li>
                 <li>Projector or smart board for displaying art images</li>
                  </ul>
-                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                  Download Guide</Button>
               </Accordion.Body>
             </Accordion.Item>
             
@@ -206,7 +204,7 @@ function EmbracingMatisse() {
                   allowFullScreen
                 ></iframe>
                 </div>
-                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                 <Button variant="primary" href="/download/curriculum/matisse/museum-tour-met.pdf" download>
                   Download Guide</Button>
               </Accordion.Body>
             </Accordion.Item>
@@ -224,8 +222,6 @@ function EmbracingMatisse() {
                 <li>Notebooks or paper for final reflections</li>
                 <li>Projector or smart board for displaying art images</li>
                  </ul>
-                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                  Download Guide</Button>
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
