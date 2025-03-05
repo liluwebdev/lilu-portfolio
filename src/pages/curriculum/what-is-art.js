@@ -141,7 +141,7 @@ function WhatIsArt() {
         <li>Various works of Andy Warhol</li>
         <li>Various works of James Rosenquist</li>
         </ul>
-         <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+         <Button variant="primary" href="/download/curriculum/what-is-art/what-is-art-overview.pdf" download>
                           Download Guide</Button>
       </Col>
     </Row>
@@ -173,10 +173,10 @@ function WhatIsArt() {
                         allowFullScreen
                         ></iframe>
                         </div>
-                <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                <Button variant="primary" href="/download/curriculum/what-is-art/lu_curriculum_unit_1.pdf" download>
                   Lesson Guide
                 </Button> <br />
-                <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                <Button variant="primary" href="/download/curriculum/what-is-art/what_is_art_historic-lussery.pptx" download>
                   Slideshow
                 </Button>
               </Accordion.Body>
@@ -193,10 +193,10 @@ function WhatIsArt() {
                     split complementary, cool colors, and warm colors to create 6 portrait images 
                     to be displayed side-by- side.</p>
                
-                 <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                 <Button variant="primary" href="/download/curriculum/what-is-art/lu_curriculum_unit_2.pdf" download>
                   Lesson Guide
                 </Button> <br />
-                <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                <Button variant="primary" href="/download/curriculum/what-is-art/color_schemes_lesson_2_lussery.pptx" download>
                   Slideshow
                 </Button>
               </Accordion.Body>
@@ -213,11 +213,11 @@ function WhatIsArt() {
                     will be done in either photoshop and/or illustrator. They must have access 
                     to the internet, optionally a digital camera. Students will present their 
                     collages at the end of the lesson.  </p>
-                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                    <Button variant="primary" href="/download/curriculum/what-is-art/lu_curriculum_unit_3.pdf" download>
                      Lesson Guide
                     </Button> <br />
-                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                     Slideshow
+                    <Button variant="primary" href="/download/curriculum/what-is-art/collage_presentation_doc.pdf" download>
+                     Collage Presentation
                 </Button>
               </Accordion.Body>
             </Accordion.Item>
@@ -233,11 +233,11 @@ function WhatIsArt() {
                     can be scenes or abstract shapes. It’s up to the student to come up with the 
                     design. The logos from the movie do not have to follow the color scheme.
                     </p>
-                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                    <Button variant="primary" href="/download/curriculum/what-is-art/lu_curriculum_unit_4.pdf" download>
                      Lesson Guide
                     </Button> <br />
-                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                     Slideshow
+                    <Button variant="primary" href="/download/curriculum/self_critique_rubric_doc_unit_4.pdf" download>
+                     Self Critique Rubric
                 </Button>
               </Accordion.Body>
             </Accordion.Item>
@@ -254,17 +254,17 @@ function WhatIsArt() {
                     and evaulation. The teacher will make note of why its important to use a 
                     critique when talking about design.</p>
         
-                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
+                    <Button variant="primary" href="/download/curriculum/what-is-art/lu_curriculum_unit_5.pdf" download>
                      Lesson Guide
                     </Button> <br />
-                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                     Slideshow
+                    <Button variant="primary" href="/download/curriculum/what-is-art/poster_presentation_doc_unit_5.pdf" download>
+                     Poster Presentation Document
                 </Button> <br />
-                <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                     Lesson Guide
+                <Button variant="primary" href="/download/curriculum/what-is-art/what_is_art_test_doc_unit5-1.pdf" download>
+                     What is art?  Test
                     </Button> <br />
-                    <Button variant="primary" href="/downloads/unit1-guide.pdf" download>
-                     Slideshow
+                    <Button variant="primary" href="/download/curriculum/what-is-art/critique_worksheet_unit_5.pdf" download>
+                     Critique Worksheet
                 </Button>
               </Accordion.Body>
             </Accordion.Item>
