@@ -42,11 +42,8 @@ function CurriculaShowcase() {
                      
                       
                       <div className="button-group">
-                        <Button variant="primary" href={project.website} target="_blank">
+                        <Button variant="primary" href={project.website}>
                           View Curriculum
-                        </Button>
-                        <Button variant="secondary" href={project.download} target="_blank">
-                          Download PDF
                         </Button>
                       </div>
                     </Card.Body>
