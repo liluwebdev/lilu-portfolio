@@ -53,12 +53,14 @@ function About() {
                       technology accessible to all. With a background in art education, web design, and curriculum development, 
                       I bridge the gap between creativity and technology, helping students, educators, and parents navigate 
                       the digital world with confidence.</p>
+                      <div className="button-group" data-aos="fade-up" data-aos-delay="400">
                     <Button variant="primary" href="/curricula">
                       Explore my Curricula
                     </Button>
                     <Button variant="primary" href="/portfolio/design">
                       Explore my Design
                     </Button>
+                    </div>
                   </Col>
                   <Col lg={6} md={12} className="hero-image" data-aos="fade-left">
                     <img src={getImage("lindsu_portrait.jpg")} alt="Creative Technology Educator" />
