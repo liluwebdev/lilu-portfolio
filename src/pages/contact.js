@@ -19,9 +19,7 @@ function Contact() {
       >
         <Container className="position-relative">
           <h1>Contact Me</h1>
-          <p>
-            Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.
-          </p>
+       
           <nav className="breadcrumbs">
             <ol>
               <li>
@@ -44,8 +42,21 @@ function Contact() {
                 <Form />
                 </Col>
                 <Col>
-               <h4>Other Ways to Say Hello</h4>
-
+               <h4 data-aos="fade-up" data-aos-delay="200">Let's Work Together</h4>
+               <p data-aos="fade-up" data-aos-delay="300">
+               Interested in working together on curriculum, workshops, or educational projects? Whether you're a school, educator, 
+               or parent looking for support, I'm here to help! Drop me a message using the form below, or check out my resume for 
+               more about my experience. Let's create something inspiring!
+          </p>
+        
+          <div className="button-group" data-aos="fade-up" data-aos-delay="400">
+         <Button variant="secondary" href="/download/lilu-dev-resume-2025.pdf" download>
+                                   My Web Developer Resume
+                                 </Button> 
+        <Button variant="secondary" href="/download/lilu-education-resume-2025.pdf" download>
+                                   My Education Resume
+                                 </Button>
+                                 </div>
                 </Col>
                 </Row>
               </Container>

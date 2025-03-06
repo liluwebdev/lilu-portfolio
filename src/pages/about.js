@@ -29,9 +29,9 @@ function About() {
 }, []);
 
   return (
-    <main className="about-page main">
+    <main className="about-page main dark-background">
       {/* Hero Slideshow */}
-      <section className="about-hero">
+      <section className="about-hero section">
             <Swiper
         modules={[Navigation, Pagination, Autoplay, EffectFade]}
         spaceBetween={0}
@@ -48,10 +48,16 @@ function About() {
               <Container>
                 <Row className="align-items-center">
                   <Col lg={6} md={12} className="hero-text" data-aos="fade-up">
-                    <h1>About Me</h1>
-                    <p>I integrate technology and art to create engaging learning experiences for students and educators.</p>
-                    <Button variant="primary" href="/curriculum">
-                      Explore My Work
+                    <h1>Who I am</h1>
+                    <p>I'm Lindsey Ussery—an educator, artist, and creative technologist passionate about making digital art and 
+                      technology accessible to all. With a background in art education, web design, and curriculum development, 
+                      I bridge the gap between creativity and technology, helping students, educators, and parents navigate 
+                      the digital world with confidence.</p>
+                    <Button variant="primary" href="/curricula">
+                      Explore my Curricula
+                    </Button>
+                    <Button variant="primary" href="/portfolio/design">
+                      Explore my Design
                     </Button>
                   </Col>
                   <Col lg={6} md={12} className="hero-image" data-aos="fade-left">
@@ -68,8 +74,12 @@ function About() {
               <Container>
                 <Row className="align-items-center">
                   <Col lg={6} md={12} className="hero-text" data-aos="fade-up">
-                    <h1>Skills & Expertise</h1>
-                    <p>From coding to design, I bring creative and technical skills together to innovate.</p>
+                    <h1>My Experience</h1>
+                    <p>With a BFA in Art Education and an AA in Web Design and New Media, 
+                      I've spent years designing STEAM-focused curricula, teaching creative coding, game design, 
+                      and digital media. I've worked with schools, educators, and parents to develop engaging 
+                      technology-driven learning experiences. I also received the Disability Inclusion 
+                      in Art Education Award for my work in accessible learning</p>
                   </Col>
                   <Col lg={6} md={12} className="hero-image" data-aos="fade-left">
                     <img src={getImage("about_me_paris_lindsu.jpg")} alt="Skills Showcase" />
@@ -85,10 +95,14 @@ function About() {
               <Container>
                 <Row className="align-items-center">
                   <Col lg={6} md={12} className="hero-text" data-aos="fade-up">
-                    <h1>View My Resume</h1>
-                    <p>Interested in my work experience and projects? Download my resume to learn more.</p>
-                    <Button variant="primary" href="/assets/resume.pdf" download>
-                      Download Resume
+                    <h1>My Teaching Philosophy</h1>
+                    <p>I believe that technology is a tool for creativity, not just consumption. 
+                      My teaching approach focuses on project-based learning, problem-solving, and inclusivity, 
+                      ensuring that students can explore, experiment, and build confidence in both art and technology. 
+                      Whether in coding, digital art, or game design, my goal is to empower students 
+                      and educators to think creatively and critically.</p>
+                    <Button variant="primary" href="/education/">
+                    Learn More About My Educational Philosophy
                     </Button>
                   </Col>
                   <Col lg={6} md={12} className="hero-image" data-aos="fade-left">
@@ -105,8 +119,10 @@ function About() {
               <Container>
                 <Row className="align-items-center">
                   <Col lg={6} md={12} className="hero-text">
-                    <h1>A Little About Me</h1>
-                    <p>I'm a designer, educator, and lifelong learner. When I'm not teaching or creating, I enjoy exploring new technologies, gaming, and storytelling.</p>
+                    <h1>Beyond Teaching</h1>
+                    <p>When I'm not teaching or creating, I'm a passionate gamer, storyteller, and music lover. 
+                      I spend time playing video games like Red Dead Redemption 2, Animal Crossing, and Final Fantasy, attending music festivals, 
+                      and running tabletop RPG campaigns. I also love spending time with my three kids, two dogs, and two cats, who inspire my creativity every day.</p>
                   </Col>
                   <Col lg={6} md={12} className="hero-image">
                     <img src={getImage("about_me_husband_lindsu.jpg")}  alt="Personal About Me" />
