@@ -31,7 +31,14 @@ function Contact() {
                more about my experience. Let's create something inspiring!
           </p>
           
-        
+        <hr></hr>
+        <p data-aos="fade-up" data-aos-delay="300">
+              Currently looking for work in:
+              <ul><li>Redondo Beach/Los Angeles, CA</li> 
+              <li>Austin/San Antonio, Texas </li>
+              <li>Remote</li>
+              </ul>
+          </p>
           <div className="button-group" data-aos="fade-up" data-aos-delay="400">
          <Button variant="secondary" href="/download/lilu-dev-resume-2025.pdf" download>
                                    My Web Developer Resume
