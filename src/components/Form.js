@@ -37,8 +37,7 @@ function Form() {
 
     return (
         <Container>
-        <h4>Have Questions?</h4>
-        <p>Use this form to get in touch with me.</p>
+        <h3>Have Questions?</h3>
         <form onSubmit={handleSubmit} className="php-email-form">
             {status.message && (
                 <div className={`message ${status.type}`}>

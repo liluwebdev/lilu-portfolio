@@ -6,43 +6,51 @@
     background: #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    color:rgba(0, 0, 0, 1.0);
+
   }
-  
-  .php-email-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  input,
-  textarea {
-    font-size: 16px;
-    padding: 12px;
-    border-radius: 6px;
-    border: 1px solid #ddd;
-    background: #f9f9f9;
-    width: 100%;
-    transition: border-color 0.3s ease-in-out;
-  }
-  
-  input:focus,
-  textarea:focus {
-    border-color: #007bff;
-    outline: none;
-  }
-  
-  button {
-    background: #007bff;
-    color: white;
-    border: none;
-    padding: 12px;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: background 0.3s ease-in-out;
-  
-    &:hover {
-      background: #0056b3;
+
+  div.contact {
+    background: rgb(115, 158, 115, 0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    .php-email-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
     }
+    
+    input,
+    textarea {
+      font-size: 16px;
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      background: #f9f9f9;
+      width: 100%;
+      transition: border-color 0.3s ease-in-out;
+    }
+    
+    input:focus,
+    textarea:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+    
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 12px;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: background 0.3s ease-in-out;
+    
+      &:hover {
+        background: #0056b3;
+      }
+    }
+    
   }
   
   /* ✅ Success & Error Messages */
