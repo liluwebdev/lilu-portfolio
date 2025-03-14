@@ -12,6 +12,7 @@ import WhatIsArt from "./pages/curriculum/what-is-art";
 import EmbracingMatisse from "./pages/curriculum/embracing-matisse";
 import PortfolioDetailsPage from "./pages/portfolioDetailsTemplate";
 import PaperMacheMasks from './pages/curriculum/paper-mache-masks';
+import IntroToComputers from './pages/curriculum/intro-to-computers';
 import KromanWatchworks from './pages/design/kroman';
 import EndOfPrint from './pages/design/end-of-print';
 import GilroyGarlic from './pages/design/gilroy-garlic';
@@ -31,6 +32,7 @@ function routes() {
     { path: "/curriculum/matisse", element: <EmbracingMatisse /> },
     { path: "/curriculum/what-is-art", element: <WhatIsArt /> },
     { path: "/curriculum/paper-mache-masks", element: <PaperMacheMasks /> },
+    { path: "/curriculum/intro-to-computers", element: <IntroToComputers /> },
     { path: "/design/kroman", element: <KromanWatchworks /> },
     { path: "/design/end-of-print", element: <EndOfPrint/> },
     { path: "/design/gilroy", element: <GilroyGarlic/> },
