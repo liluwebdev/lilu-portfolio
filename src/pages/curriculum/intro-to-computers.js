@@ -49,12 +49,13 @@ function IntroToComputers() {
           In this unit, students will explore what makes a computer a computer and how these devices have shaped the world we live in. 
           They'll dive into the history of computing, meet key innovators, and discover how past inventions connect to the technology they use every day. 
           Through hands-on projects and creative presentations, students will share what they've learned, building skills in collaboration, critical thinking, 
-          and digital literacy along the way.</p>
+          and digital literacy along the way. Its important to note that this unit is <strong>coding free</strong>; which means teachers can use this unit to 
+          teach the concepts of coding and computers without everyone having access to a computer.</p>
           <h3>Time Frame:</h3>
           <ul>
-            <li>Lesson One - Cultural/Historical Overview: 4, 50m Classes</li>
-            <li>Lesson Two - Input/Output Process</li>
-            <li>Lesson Three - Logic & Algorithm</li>
+            <li>Lesson One - Cultural/Historical Overview: 4, 50m sessions.</li>
+            <li>Lesson Two - Input/Output Process: 1, 50m session.</li>
+            <li>Lesson Three - Logic & Algorithm: 3, 50m sessions.</li>
             <li>Lesson Four - Understanding Data & Binary Code</li>
             <li>Lesson Five - Why Computers Matter</li>
           </ul>
@@ -144,10 +145,27 @@ function IntroToComputers() {
             <Accordion.Item eventKey="1">
               <Accordion.Header>Lesson 2: Input/Output Process</Accordion.Header>
               <Accordion.Body>
-                <p>Coming Soon</p>
-                <Button variant="primary" href="/downloads/unit2-resources.pdf" download>
-                  Download Resources
-                </Button>
+              <p>Students will understand how computers rely on input and output to 
+                    function by exploring real-world examples and designing their own I/O 
+                            system using the Input → Process → Output model.</p>
+                  <h3>Learning Objectives</h3>
+                    <ul>
+                      <li>Identify common input and output devices and describe their purpose.</li>
+                      <li>Explain the Input → Process → Output (IPO) model and why it’s essential for 
+                      computers to function.</li>
+                      <li>Analyze real-world systems that rely on input and output to solve everyday problems.</li>
+                      <li>Design a creative I/O system by identifying appropriate input and output devices that address a real-world challenge.</li>
+                      <li>Describe their designed system clearly, explaining how the input, process, and output interact.</li>
+                      <li>Reflect on the importance of input/output in modern technology and identify I/O systems they use in daily life.</li>
+                    </ul>
+                    <div className="button-group" data-aos="fade-up" data-aos-delay="400">
+              <Button variant="primary" href="/download/curriculum/computers/intro-to-computers-lesson-2.pdf" download>
+                                                 Lesson 2 Procedures
+                                                </Button> 
+            <Button variant="primary" href="/download/curriculum/computers/intro-to-computers-resources-lesson-2.pdf" download>
+                                                  Lesson 2 Resources
+                                                </Button>
+                                                </div>
               </Accordion.Body>
             </Accordion.Item>
 
