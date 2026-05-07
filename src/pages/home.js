@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import GLightbox from "glightbox";
 import "glightbox/dist/css/glightbox.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import '../styles/main.scss';
 import '../styles/home.scss';
 import herobg from "../assets/img/theflowergarden2023-small.jpg"; 
