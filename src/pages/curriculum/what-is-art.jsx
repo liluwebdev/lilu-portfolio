@@ -11,7 +11,7 @@ import "../../styles/main.scss";
 
 const getImage = (imagePath) => {
     try {
-      return require(`../../assets/curriculum/${imagePath}`);
+      return new URL(`../../assets/curriculum/img/${imagePath}`, import.meta.url);
     } catch (error) {
       console.error("Image not found:", imagePath);
       return "";
@@ -35,7 +35,7 @@ function WhatIsArt() {
             <ol>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/curricula">Curricula</Link></li>
-              <li className="current">Embracing Matisse</li>
+              <li className="current">What is Art?</li>
             </ol>
           </nav>
         </Container>
@@ -112,12 +112,12 @@ function WhatIsArt() {
       <Col lg={4} md={12} className="focus-art">
       <h2>Focus Art & Materials</h2>
         <img 
-          src={getImage("img/Shot_Marilyns-Andy_Warhol.jpg")}
+          src={getImage("Shot_Marilyns-Andy_Warhol.jpg")}
           alt="Henri Matisse Gerbe - focus art" 
           className="focus-art-image"
         />
          <img 
-          src={getImage("img/Roy_Lichtenstein_Drowning_Girl.jpg")}
+          src={getImage("Roy_Lichtenstein_Drowning_Girl.jpg")}
           alt="Franz Marc - Horses - focus art" 
           className="focus-art-image"
         />

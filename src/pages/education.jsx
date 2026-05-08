@@ -8,7 +8,7 @@ import "../styles/education.scss";
 
 const getImage = (imagePath) => {
   try {
-    return require(`../assets/curriculum/${imagePath}`);
+    return new URL(`../assets/curriculum/${imagePath}`, import.meta.url);
   } catch (error) {
     console.error("Image not found:", imagePath);
     return "";

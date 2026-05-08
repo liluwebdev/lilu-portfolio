@@ -10,7 +10,7 @@ import "../../styles/curriculum.scss";
 import "../../styles/main.scss";
 const getImage = (imagePath) => {
     try {
-      return require(`../../assets/curriculum/${imagePath}`);
+      return new URL(`../../assets/curriculum/img${imagePath}`, import.meta.url);
     } catch (error) {
       console.error("Image not found:", imagePath);
       return "";

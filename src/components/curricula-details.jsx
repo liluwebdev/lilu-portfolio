@@ -7,7 +7,7 @@ import CurriculaProjects from "../data/curricula-projects.json";
 
 const getImage = (imagePath) => {
     try {
-      return require(`../assets/curriculum/img/${imagePath}`);
+      return new URL(`../assets/curriculum/img/${imagePath}`, import.meta.url);
     } catch (error) {
       console.error("Image not found:", imagePath);
       return "";

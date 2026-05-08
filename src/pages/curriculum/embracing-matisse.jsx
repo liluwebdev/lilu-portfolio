@@ -11,7 +11,7 @@ import "../../styles/main.scss";
 
 const getImage = (imagePath) => {
     try {
-      return require(`../../assets/curriculum/${imagePath}`);
+      return new URL(`../../assets/curriculum/img/${imagePath}`, import.meta.url);
     } catch (error) {
       console.error("Image not found:", imagePath);
       return "";
@@ -76,17 +76,17 @@ function EmbracingMatisse() {
       </Col>
       <Col lg={4} md={12} className="focus-art">
         <img 
-          src={getImage("img/henri-matisse-gerbe.jpg")}
+          src={getImage("henri-matisse-gerbe.jpg")}
           alt="Henri Matisse Gerbe - focus art" 
           className="focus-art-image"
         />
          <img 
-          src={getImage("img/Marc-horses.jpg")}
+          src={getImage("Marc-horses.jpg")}
           alt="Franz Marc - Horses - focus art" 
           className="focus-art-image"
         />
          <img 
-          src={getImage("img/Maurice-de-Vlaminck.jpg")}
+          src={getImage("Maurice-de-Vlaminck.jpg")}
           alt="Maurice de Vlaminck - focuse art" 
           className="focus-art-image"
         />

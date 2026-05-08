@@ -14,7 +14,7 @@ import '../styles/about.scss';
 
 const getImage = (imagePath) => {
   try {
-    return require(`../assets/img/${imagePath}`);
+    return new URL(`../assets/img/${imagePath}`, import.meta.url);
   } catch (error) {
     console.error("Image not found:", imagePath);
     return "";

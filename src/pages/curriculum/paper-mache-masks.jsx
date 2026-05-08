@@ -11,7 +11,7 @@ import "../../styles/main.scss";
 
 const getImage = (imagePath) => {
     try {
-      return require(`../../assets/curriculum/${imagePath}`);
+      return new URL(`../../assets/curriculum/img/${imagePath}`, import.meta.url);
     } catch (error) {
       console.error("Image not found:", imagePath);
       return "";
@@ -99,7 +99,7 @@ function PaperMacheMasks() {
       <Col lg={4} md={12} className="focus-art">
       <h2>Focus Art & Materials</h2>
         <img 
-          src={getImage("img/venice-mask-shop.jpg")}
+          src={getImage("venice-mask-shop.jpg")}
           alt="Venice Masks for Carnivale" 
           className="focus-art-image"
         />
